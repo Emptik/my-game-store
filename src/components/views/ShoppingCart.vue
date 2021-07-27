@@ -117,7 +117,7 @@ export default {
     }
 
     &__productImage {
-        width: 50px;
+        width: 75px;
     }
 
     &__cell {

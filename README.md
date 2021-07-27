@@ -1,24 +1,24 @@
 # my-game-store
 
-## Project setup
-```
-yarn install
-```
+### Project
+Buy the the video games that you wish by adding them to your shopping cart.<br/>
+My Game Store is a fictionnal web project. This application has been made with Vue.JS.
+
+### Project setup
+yarn install<br/>
+npm install
 
 ### Compiles and hot-reloads for development
-```
-yarn serve
-```
+yarn serve<br/>
+npm run serve
 
 ### Compiles and minifies for production
-```
-yarn build
-```
+yarn build<br/>
+npm run build
 
 ### Lints and fixes files
-```
-yarn lint
-```
+yarn lint<br/>
+npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).

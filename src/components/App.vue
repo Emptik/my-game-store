@@ -45,6 +45,8 @@ img {
 
     &__header {
         margin-bottom: 40px;
+        position: sticky;
+        top: 20px;
     }
 
     &__navbar {

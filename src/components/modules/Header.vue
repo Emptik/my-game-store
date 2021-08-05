@@ -1,11 +1,13 @@
 <template>
     <header class="Header">
-        <span class="Header__description">
-            {{ calculateTotalQuantity }} items in your shopping cart
-        </span>
-        <router-link to="/shopping-cart">
-            <ShoppingCartIcon/>
-        </router-link>
+        <div class="Header__shoppingCart">
+            <span class="Header__description">
+                {{ calculateTotalQuantity }}
+            </span>
+            <router-link to="/shopping-cart">
+                <ShoppingCartIcon/>
+            </router-link>
+        </div>
     </header>
 </template>
 
@@ -28,11 +30,18 @@ export default {
 .Header {
     display: flex;
     justify-content: flex-end;
-    align-items: center;
 
     &__description {
         color: #31353c;
         font-size: 1.5rem;
+    }
+
+    &__shoppingCart {
+        padding: 23px 20px 23px 20px;
+        display: flex;
+        align-items: center;
+        background-color: #78c9e2;
+        border-radius: 50px;
     }
 }
 </style>

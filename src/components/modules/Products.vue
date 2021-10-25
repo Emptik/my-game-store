@@ -22,8 +22,8 @@
 </template>
 
 <script>
-import Button from '@/components/modules/Button.vue';
 import { mapState, mapActions } from 'vuex';
+import Button from '@/components/modules/Button.vue';
 
 export default {
     name: 'Products',

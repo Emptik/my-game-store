@@ -12,8 +12,8 @@
 </template>
 
 <script>
-import ShoppingCartIcon from '@/components/icons/ShoppingCartIcon.vue';
 import { mapGetters } from 'vuex';
+import ShoppingCartIcon from '@/components/icons/ShoppingCartIcon.vue';
 
 export default {
     name: 'Header',
